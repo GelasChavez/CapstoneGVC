@@ -7,5 +7,6 @@ namespace CapstoneGVC.Contracts.DataTransferObjects
     public class PruebaDTO
     {
         public int MyProperty { get; set; }
+        public int MyProperty1 { get; set; }
     }
 }
