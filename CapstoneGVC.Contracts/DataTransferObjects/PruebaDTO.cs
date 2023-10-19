@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CapstoneGVC.Contracts.DataTransferObjects
 {
-    internal class PruebaDTO
+    public class PruebaDTO
     {
     }
 }
