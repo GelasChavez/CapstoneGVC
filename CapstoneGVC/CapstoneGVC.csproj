@@ -10,4 +10,13 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CapstoneGVC.BusinessCore\CapstoneGVC.BusinessCore.csproj" />
+    <ProjectReference Include="..\CapstoneGVC.Contracts\CapstoneGVC.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

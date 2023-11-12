@@ -1,7 +1,10 @@
+using CapstoneGVC.Modules.Injection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddInjection(builder.Configuration);
 
 var app = builder.Build();
 
